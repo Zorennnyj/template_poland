@@ -1,0 +1,37 @@
+/*
+Error: Invalid CSS after "include ": expected "{", was ""
+        on line 1 of style.scss
+
+1: include
+
+Backtrace:
+style.scss:1
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+D:/Programs/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+D:/Programs/Ruby23-x64/bin/scss:22:in `load'
+D:/Programs/Ruby23-x64/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"include \": expected \"{\", was \"\"\A         on line 1 of style.scss\A \A 1: include"; }
