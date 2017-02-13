@@ -2,5 +2,66 @@
 
 body {
   width: 100%;
-  background-color: #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: $body_text_color;
+}
+
+.h1 {
+  font-size: 92px;
+  font-family: $h1_font;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.wrapper {
+  width: 100%;
+
+  .header {
+    background: url("../images/top-background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 800px;
+    -moz-box-shadow: inset 0 0 200px $shadow_color;
+    -webkit-box-shadow: inset 0 0 200px $shadow_color;
+    box-shadow: inset 0 0 200px $shadow_color;
+
+    .top {
+      width: 100%;
+      display: inline-flex;
+      flex-direction: row;
+      padding: 60px 40px;
+      justify-content: space-between;
+
+      .menu {
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        ul {
+          list-style: none;
+          overflow: visible;
+          width: auto;
+          display: -webkit-inline-box;
+          li {
+            a {
+              transition: $default_transition;
+              text-decoration: none;
+              color: $body_text_color;
+              &:hover {
+                color: $menu_link_hover_color;
+              }
+            }
+            margin: 0 25px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,5 +1,54 @@
 body {
   width: 100%;
-  background-color: #cccccc; }
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+.h1 {
+  font-size: 92px;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  line-height: 1em; }
+
+.wrapper {
+  width: 100%; }
+  .wrapper .header {
+    background: url("../images/top-background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 800px;
+    -moz-box-shadow: inset 0 0 200px black;
+    -webkit-box-shadow: inset 0 0 200px black;
+    box-shadow: inset 0 0 200px black; }
+    .wrapper .header .top {
+      width: 100%;
+      display: inline-flex;
+      flex-direction: row;
+      padding: 60px 40px;
+      justify-content: space-between; }
+      .wrapper .header .top .menu {
+        display: inline-block;
+        font-size: 18px;
+        text-align: center; }
+        .wrapper .header .top .menu ul {
+          list-style: none;
+          overflow: visible;
+          width: auto;
+          display: -webkit-inline-box; }
+          .wrapper .header .top .menu ul li {
+            margin: 0 25px; }
+            .wrapper .header .top .menu ul li a {
+              transition: all 0.5s ease;
+              text-decoration: none;
+              color: #fff; }
+              .wrapper .header .top .menu ul li a:hover {
+                color: #b1b1b1; }
 
 /*# sourceMappingURL=style.css.map */
